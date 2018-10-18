@@ -9,7 +9,7 @@ https://www.52pojie.cn/thread-808473-1-1.html
 
 加密程序。加密dll文件。加密原理：dll内容使用AES和OR加密，增加CRC校验，写入到shell程序的尾部，生成文件XXXX_Encrypted.exe
 
-加密程序会将以下结果体写入到加壳程序。
+加密程序会将以下结构体写入到加壳程序。
 
 ```c++
 typedef struct DATA_INFO
